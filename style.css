@@ -1,0 +1,61 @@
+/*  selector{property:value;} */
+
+
+/******************tag selectors******************/
+.top{
+    margin: 0px auto 0px auto;
+}
+body {
+    background-color:rgba(0, 255, 255, 0.041);
+}
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    border-color:rgba(128, 128, 128, 0.438);
+    border-width:7px;
+    width:5%;
+} 
+img{
+    height:200px;
+    border-style:solid;
+    border-radius: 100%;
+    border-color:rgba(41, 0, 223, 0.171);
+}
+
+p:hover{
+    color:blueviolet;
+}
+
+h1{
+    color:#66BFBF;
+}
+h1:hover{
+    color:red;
+}
+h3{
+    color:#66BFBF;
+}
+ 
+/******************Class selectors******************/
+/*
+class names can be same 
+
+.class_name{}
+
+
+class="broccoli(1st class name) circular(second class in same)"
+
+*/
+
+/******************ID Selectors******************/
+
+/*
+id is unique for everyone cannot use multiple times
+
+id="heading"
+id="heading big" not possible
+
+#id_name{}
+*/
+
+
